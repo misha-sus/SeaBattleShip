@@ -1,4 +1,4 @@
-package ships;
+package ships.models;
 
 public class Point {
    private int x,y;

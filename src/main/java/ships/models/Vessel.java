@@ -1,6 +1,7 @@
-package ships;
+package ships.models;
 
-import ships.typeOfShip.Sailable;
+import ships.interfaces.Damager;
+import ships.interfaces.Sailable;
 
 public class Vessel implements Sailable {
    Point[] points = new Point[10];

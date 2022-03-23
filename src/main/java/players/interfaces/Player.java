@@ -1,6 +1,6 @@
-package players;
+package players.interfaces;
 
-import ships.Vessel;
+import ships.models.Vessel;
 
 import java.util.List;
 

@@ -1,6 +1,7 @@
-package players;
+package players.models;
 
-import ships.Vessel;
+import players.interfaces.Player;
+import ships.models.Vessel;
 
 import java.util.ArrayList;
 import java.util.List;
