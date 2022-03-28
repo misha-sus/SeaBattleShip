@@ -1,12 +1,18 @@
 package ships.models;
 
 public class Point {
-   private int x,y;
+    private int x, y;
 
     public Point(int x, int y) {
         this.x = x;
         this.y = y;
     }
+
+
+    public boolean isPointNearCurrent(Point point) {
+        return point.x == this.getX() && point.y == this.getY();
+    }
+
 
     public int getX() {
         return x;
